@@ -21,14 +21,14 @@ This is a simple console-based Blackjack game implemented in Python. The game al
 Description: Deals a random card from the deck.
 Returns: An integer representing the card value.
 
-## calculate_score(cards)
+### calculate_score(cards)
 
 Description: Calculates the score of a given list of cards. Adjusts for the ace (11 or 1) if the total score exceeds 21.
 Parameters:
 cards (list): A list of integers representing the cards in hand.
 Returns: An integer representing the total score.
 
-## compare(user_score, computer_score)
+### compare(user_score, computer_score)
 
 Description: Compares the scores of the user and the computer to determine the outcome of the game.
 Parameters:
@@ -36,6 +36,7 @@ user_score (int): The user's total score.
 computer_score (int): The computer's total score.
 Returns: A string message indicating the result (win, lose, or draw).
 
-## play_game()
+### play_game()
+
 Description: The main function to play the game. Handles the game logic, user interactions, and displays the result.
 Returns: None
