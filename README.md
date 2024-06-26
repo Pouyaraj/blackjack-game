@@ -16,7 +16,7 @@ This is a simple console-based Blackjack game implemented in Python. The game al
 
 ## Functions
 
-## deal_cards()
+### deal_cards()
 
 Description: Deals a random card from the deck.
 Returns: An integer representing the card value.
